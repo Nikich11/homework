@@ -1,9 +1,9 @@
-#include <stdio.h>
-#include <conio.h>
+#include <iostream>
+
+using namespace std;
 
 int main ()
 {
-    printf("YO!\n");
-    getch ();
+    cout <<"Hello, World!"<<endl;
+    return 0;
 }
-Find_MSC_BUILD
