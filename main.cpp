@@ -1,9 +1,14 @@
+#include "example.h"
+
 #include <iostream>
 
-using namespace std;
+#include "move_me_out.h"
 
-int main ()
-{
-    cout <<"Hello, World!"<<endl;
+int main() {
+    std::cout << "Hello, world!" << std::endl;
+
+    example_function();
+    todo_move_me_out();
+
     return 0;
 }
